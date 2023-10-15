@@ -1,30 +1,32 @@
-# DATA1030 Hands-on Data Science Project
+# DATA1030 Hands-on Data Science Project - Trading at Close
 
-## Dataset
-- **Data Source:** Kaggle Optiver Trading at Close 2023
-- **Problem:** In this competition, you are challenged to develop a model capable of predicting the closing price movements for hundreds of Nasdaq listed stocks using data from the order book and the closing auction of the stock. Information from the auction can be used to adjust prices, assess supply and demand dynamics, and identify trading opportunities.
-- **Description:**
 
-    Stock exchanges are fast-paced, high-stakes environments where every second counts. The intensity escalates as the trading day approaches its end, peaking in the critical final ten minutes. These moments, often characterised by heightened volatility and rapid price fluctuations, play a pivotal role in shaping the global economic narrative for the day.
+## Introduction
+- **Problem Statement:**
+  - Stock exchanges experience heightened activity and volatility as they near the day's end, especially in the last ten minutes. These critical moments often witness rapid price changes and can significantly influence the day's global economic outlook. The closing price of a stock is often considered its most important price of the day. It's used as a reference point by investors, analysts, and financial media. Since it represents the final consensus of value for the stock on that particular day, many technical and fundamental analysis tools hinge on it.
+  - In this project, I would like to utilize machine learning models to predict the closing price movements (indicated by a specifically defined synthetic index) for hundreds of Nasdaq listed stocks.
 
-    Each trading day on the Nasdaq Stock Exchange concludes with the Nasdaq Closing Cross auction. This process establishes the official closing prices for securities listed on the exchange. These closing prices serve as key indicators for investors, analysts and other market participants in evaluating the performance of individual securities and the market as a whole.
+- **Problem Type:** It's a regression problem on time-series dataset.
+  
+- **Data Source:** The data is directly downloaded from Kaggle -- it's a competition dataset provided by Optiver.
+  
+- **Data Collection:** This dataset contains historic data for the daily ten minute closing auction on the NASDAQ stock exchange. The data is collected from the traditional order books and the closing auctions of the stocks by Optiver. The target variable is a synthetic index composed of NASDAQ-listed stocks, which indicates the closing price movement for each single stock. It's noted that the unique stocks and dates are replaced by id to avoid data leakage.
 
-    In the last ten minutes of the Nasdaq exchange trading session, market makers like Optiver merge traditional order book data with auction book data. This ability to consolidate information from both sources is critical for providing the best prices to all market participants.
+- **Importance:**
+  - The prediction model can contribute to combine signals from the auction and the (non-auction) order book, which will help improve the market efficiency and accessibility, especially in the last ten minutes of trading. The ability to consolidate information from both sources is critical for providing the best prices to all market participants. Plus, information from the auction can be used to adjust prices, assess supply and demand dynamics, and identify trading opportunities.
+  - The project provides firsthand experience in handling real-world data science problems, mirroring those encountered by traders, quantitative researchers, and engineers.
 
-    In this project, I am developing a model capable of predicting the closing price movements for hundreds of Nasdaq listed stocks using data from the order book and the closing auction of the stock. Information from the auction can be used to adjust prices, assess supply and demand dynamics, and identify trading opportunities.
 
-    The model can contribute to the consolidation of signals from the auction and order book, leading to improved market efficiency and accessibility, particularly during the intense final ten minutes of trading. You'll also get firsthand experience in handling real-world data science problems, similar to those faced by traders, quantitative researchers and engineers at Optiver.
+## File Structure
 
-## Evaluation
+- `data/`: We stores all raw and preprocessed data files here. `raw_kaggle/train.csv` is the raw data that we will use for EDA, splitting and preprocessing.
+- `figures/`: This stores all visualizations for report and presentations.
+- `results/`: We will later put trained models and results here.
+- `report/`: Presentations and reports for pipeline, methodology, and model results.
+- `src/`: All the notebooks and codes for the machine learning pipeline will be stored here.
 
-The result is evaluated on the Mean Absolute Error (MAE) between the predicted return and the observed target. The formula is given by:
+## Dependencies
+- To Be Updated
 
-$$
-MAE = \frac{1}{n}\sum_{i=1}{n}|y_i - x_i|
-$$
 
-Where:
-- n is the total number of data points.
-- y_i is the predicted value for data point i.
-- x_i is the observed value for data point i.
 
