@@ -1,6 +1,0 @@
-Here are a few challenging things about the dataset I have chosen:
-
-- Time series data is not iid.
-- There are missing values in some columns.
-- The project requires domain knowledge for feature engineering.
-- (Note that it is a regression problem).
