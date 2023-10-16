@@ -1,4 +1,4 @@
-# DATA1030 Hands-on Data Science Project - Trading at Close
+# DATA1030 Project - Trading at Close
 
 
 ## Introduction
