@@ -1,0 +1,668 @@
+7.5s 1 /kaggle/input/data1030-optiver-trading-at-close/test_dataset.pkl
+7.5s 2 /kaggle/input/data1030-optiver-trading-at-close/train_val_dataset.pkl
+14.4s 3 
+14.4s 4 Fold 1 Reduced Features:
+14.4s 5 Train index: [     0      1      2 ... 743181 743182 743183] Val index: [ 743184  743185  743186 ... 1002231 1002232 1002233]
+14.4s 6 Train size: 743184 Val size: 259050
+19.6s 7 Preparing datasets...
+76.3s 8 there are 3 unique missing value patterns.
+76.3s 9 working on unique pattern 0
+80.7s 10 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+96.7s 11 val_score: 5.860317860795453
+96.7s 12 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+111.3s 13 val_score: 5.860322733104668
+111.3s 14 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+125.8s 15 val_score: 5.860317799300453
+125.8s 16 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+140.7s 17 val_score: 5.860413729682331
+140.7s 18 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+155.3s 19 val_score: 5.860317716759166
+155.3s 20 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+170.3s 21 val_score: 5.860339500502424
+170.3s 22 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+182.1s 23 val_score: 5.85031210379465
+182.1s 24 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+194.0s 25 val_score: 5.850490906322451
+194.0s 26 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+206.1s 27 val_score: 5.850322516164711
+206.1s 28 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+216.9s 29 val_score: 5.850918569987738
+216.9s 30 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+229.3s 31 val_score: 5.850546560855649
+229.3s 32 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+241.3s 33 val_score: 5.850611531452311
+241.3s 34 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+254.5s 35 val_score: 5.846905065582181
+254.5s 36 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+267.5s 37 val_score: 5.845877175808765
+267.5s 38 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+280.4s 39 val_score: 5.847445954918951
+280.4s 40 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+292.7s 41 val_score: 5.846493336328428
+292.7s 42 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+305.2s 43 val_score: 5.8470844456520386
+305.2s 44 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+317.5s 45 val_score: 5.846624768473991
+317.5s 46 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+335.3s 47 val_score: 5.85103310526286
+335.3s 48 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+352.9s 49 val_score: 5.850757687446059
+352.9s 50 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+370.8s 51 val_score: 5.851049395417658
+370.8s 52 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+389.0s 53 val_score: 5.849945361912898
+389.0s 54 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+406.4s 55 val_score: 5.851213567923806
+406.4s 56 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+425.5s 57 val_score: 5.8506543944626825
+425.5s 58 best model parameters for pattern 0:
+425.5s 59 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+425.5s 60 corresponding validation score: 5.845877175808765
+438.7s 61 working on unique pattern 1
+442.6s 62 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+458.4s 63 val_score: 5.942210356994745
+458.4s 64 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+475.0s 65 val_score: 5.942011728802405
+475.0s 66 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+490.7s 67 val_score: 5.942210230820049
+490.7s 68 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+507.2s 69 val_score: 5.9420114597423375
+507.2s 70 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+522.8s 71 val_score: 5.942210067768191
+522.8s 72 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+539.2s 73 val_score: 5.94191439438128
+539.2s 74 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+550.0s 75 val_score: 5.935567233739016
+550.0s 76 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+560.7s 77 val_score: 5.934756376058961
+560.7s 78 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+572.4s 79 val_score: 5.935294391700818
+572.4s 80 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+583.0s 81 val_score: 5.934744193486671
+583.0s 82 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+593.7s 83 val_score: 5.935194007208756
+593.7s 84 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+604.5s 85 val_score: 5.9350326532617155
+604.5s 86 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+617.1s 87 val_score: 5.929187144751772
+617.1s 88 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+629.1s 89 val_score: 5.927440801429363
+629.2s 90 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+641.9s 91 val_score: 5.928044628604449
+641.9s 92 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+653.9s 93 val_score: 5.928068720031911
+653.9s 94 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+666.4s 95 val_score: 5.927821418219836
+666.4s 96 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+678.9s 97 val_score: 5.927388116231065
+678.9s 98 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+695.3s 99 val_score: 5.937496122461844
+695.3s 100 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+713.1s 101 val_score: 5.933214950911872
+713.1s 102 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+729.6s 103 val_score: 5.937512458429718
+729.6s 104 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+747.0s 105 val_score: 5.9330203717759575
+747.0s 106 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+764.7s 107 val_score: 5.936605397946679
+764.7s 108 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+783.4s 109 val_score: 5.93322521738742
+783.4s 110 best model parameters for pattern 1:
+783.4s 111 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+783.4s 112 corresponding validation score: 5.927388116231065
+795.6s 113 working on unique pattern 2
+800.5s 114 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+835.9s 115 val_score: 6.551581753572476
+835.9s 116 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+867.1s 117 val_score: 6.552258068214436
+867.1s 118 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+903.1s 119 val_score: 6.551581697295207
+903.1s 120 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+936.2s 121 val_score: 6.552327105996404
+936.2s 122 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+973.8s 123 val_score: 6.551581615347704
+973.8s 124 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1006.4s 125 val_score: 6.55232716464324
+1006.4s 126 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1033.2s 127 val_score: 6.5460939345548494
+1033.2s 128 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1059.2s 129 val_score: 6.545817016319151
+1059.2s 130 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1084.1s 131 val_score: 6.546064429944909
+1084.1s 132 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1109.2s 133 val_score: 6.545665590055811
+1109.2s 134 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1135.1s 135 val_score: 6.546021638470618
+1135.1s 136 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1160.4s 137 val_score: 6.545859086598988
+1160.4s 138 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1184.7s 139 val_score: 6.548294282699697
+1184.7s 140 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1207.5s 141 val_score: 6.546511967829614
+1207.5s 142 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1231.1s 143 val_score: 6.548365122480666
+1231.1s 144 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1255.4s 145 val_score: 6.5465314285889304
+1255.4s 146 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1279.5s 147 val_score: 6.548461539991021
+1279.5s 148 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1302.1s 149 val_score: 6.547221039596418
+1302.1s 150 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1331.2s 151 val_score: 6.5538885750647005
+1331.2s 152 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1360.4s 153 val_score: 6.549929441842758
+1360.4s 154 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1389.3s 155 val_score: 6.553232038701779
+1389.3s 156 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1418.6s 157 val_score: 6.5498036086513824
+1418.6s 158 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1448.0s 159 val_score: 6.55288312728069
+1448.0s 160 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1477.3s 161 val_score: 6.549172185121314
+1477.3s 162 best model parameters for pattern 2:
+1477.3s 163 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 3, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.5, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+1477.3s 164 corresponding validation score: 6.545665590055811
+1501.2s 165 test MAE: 6.740288918583766
+1501.2s 166 
+1501.2s 167 Fold 2 Reduced Features:
+1501.2s 168 Train index: [ 10505  10506  10507 ... 753961 753962 753963] Val index: [ 753964  753965  753966 ... 1013066 1013067 1013068]
+1501.2s 169 Train size: 743459 Val size: 259105
+1506.2s 170 Preparing datasets...
+1562.7s 171 there are 3 unique missing value patterns.
+1562.7s 172 working on unique pattern 0
+1567.3s 173 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1582.5s 174 val_score: 5.94226846204213
+1582.5s 175 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1597.6s 176 val_score: 5.942292443259364
+1597.6s 177 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1612.9s 178 val_score: 5.942268356682303
+1612.9s 179 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1628.2s 180 val_score: 5.942297231014212
+1628.2s 181 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1643.4s 182 val_score: 5.942268227397704
+1643.4s 183 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1658.5s 184 val_score: 5.942294879037272
+1658.5s 185 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1669.8s 186 val_score: 5.933813409926921
+1669.8s 187 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1681.4s 188 val_score: 5.933740286200989
+1681.4s 189 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1692.3s 190 val_score: 5.93384896208109
+1692.3s 191 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1703.6s 192 val_score: 5.9337220258905345
+1703.6s 193 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1714.8s 194 val_score: 5.93389743844476
+1714.8s 195 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1726.0s 196 val_score: 5.9337791053050895
+1726.0s 197 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1738.0s 198 val_score: 5.932289888542781
+1738.0s 199 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1750.9s 200 val_score: 5.930701488799276
+1750.9s 201 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1762.5s 202 val_score: 5.93271526830903
+1762.5s 203 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1775.8s 204 val_score: 5.930873377649904
+1775.8s 205 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1787.7s 206 val_score: 5.932540472147991
+1787.7s 207 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1799.6s 208 val_score: 5.931396837749424
+1799.6s 209 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1816.7s 210 val_score: 5.937309855844242
+1816.7s 211 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1834.9s 212 val_score: 5.934753318312986
+1834.9s 213 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1852.4s 214 val_score: 5.937279445398626
+1852.4s 215 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1870.2s 216 val_score: 5.935759986209362
+1870.2s 217 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1887.5s 218 val_score: 5.937316600167852
+1887.5s 219 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1905.2s 220 val_score: 5.93479111163415
+1905.2s 221 best model parameters for pattern 0:
+1905.2s 222 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+1905.2s 223 corresponding validation score: 5.930701488799276
+1918.1s 224 working on unique pattern 1
+1921.9s 225 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1938.5s 226 val_score: 6.015404433255436
+1938.5s 227 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1955.0s 228 val_score: 6.0154066183115775
+1955.0s 229 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1972.0s 230 val_score: 6.015372150773354
+1972.0s 231 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+1988.7s 232 val_score: 6.015406357453036
+1988.7s 233 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2005.3s 234 val_score: 6.01539193890122
+2005.3s 235 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2021.8s 236 val_score: 6.015406042759462
+2021.8s 237 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2032.8s 238 val_score: 6.00961603571014
+2032.8s 239 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2043.7s 240 val_score: 6.008932069234964
+2043.7s 241 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2054.9s 242 val_score: 6.009412837800738
+2054.9s 243 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2065.9s 244 val_score: 6.008940116038087
+2065.9s 245 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2076.9s 246 val_score: 6.009378005039558
+2076.9s 247 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2088.6s 248 val_score: 6.0089637603274255
+2088.6s 249 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2101.0s 250 val_score: 6.003906809607217
+2101.0s 251 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2113.3s 252 val_score: 6.003756404512899
+2113.3s 253 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2125.9s 254 val_score: 6.005095758136742
+2125.9s 255 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2138.1s 256 val_score: 6.003733943905261
+2138.1s 257 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2150.6s 258 val_score: 6.004626504519857
+2150.6s 259 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2163.0s 260 val_score: 6.00402147277096
+2163.0s 261 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2179.0s 262 val_score: 6.0127461065197565
+2179.0s 263 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2197.2s 264 val_score: 6.0088320309391765
+2197.2s 265 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2213.2s 266 val_score: 6.013138873515437
+2213.2s 267 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2231.3s 268 val_score: 6.010845369766819
+2231.3s 269 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2248.8s 270 val_score: 6.012133305796181
+2248.8s 271 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2267.0s 272 val_score: 6.009843026786675
+2267.0s 273 best model parameters for pattern 1:
+2267.0s 274 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.5, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+2267.0s 275 corresponding validation score: 6.003733943905261
+2278.7s 276 working on unique pattern 2
+2283.9s 277 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2315.6s 278 val_score: 6.6601670981805645
+2315.6s 279 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2347.4s 280 val_score: 6.66013710624177
+2347.4s 281 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2379.1s 282 val_score: 6.660167147717787
+2379.1s 283 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2410.9s 284 val_score: 6.660130860792474
+2410.9s 285 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2442.7s 286 val_score: 6.660167207226362
+2442.7s 287 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2474.4s 288 val_score: 6.660107908052144
+2474.4s 289 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2498.3s 290 val_score: 6.656039259972365
+2498.3s 291 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2523.4s 292 val_score: 6.655493519836128
+2523.4s 293 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2549.2s 294 val_score: 6.655758645321873
+2549.2s 295 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2574.6s 296 val_score: 6.65554379873997
+2574.6s 297 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2601.6s 298 val_score: 6.655728682336883
+2601.6s 299 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2624.4s 300 val_score: 6.656092686554406
+2624.4s 301 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2647.0s 302 val_score: 6.657593774507856
+2647.0s 303 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2670.1s 304 val_score: 6.656397444647697
+2670.1s 305 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2693.2s 306 val_score: 6.657716172900844
+2693.2s 307 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2716.6s 308 val_score: 6.6564549702073705
+2716.6s 309 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2739.3s 310 val_score: 6.657737146298647
+2739.3s 311 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2762.8s 312 val_score: 6.656119430338688
+2762.8s 313 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2791.6s 314 val_score: 6.663331463328484
+2791.6s 315 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2820.6s 316 val_score: 6.6601584469966255
+2820.6s 317 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2849.2s 318 val_score: 6.663514366037339
+2849.2s 319 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2878.2s 320 val_score: 6.660084110454386
+2878.2s 321 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2906.6s 322 val_score: 6.663708423016003
+2906.6s 323 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+2935.7s 324 val_score: 6.660361302593196
+2935.7s 325 best model parameters for pattern 2:
+2935.7s 326 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 3, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+2935.7s 327 corresponding validation score: 6.655493519836128
+2959.7s 328 test MAE: 6.739273594890714
+2959.7s 329 
+2959.7s 330 Fold 3 Reduced Features:
+2959.7s 331 Train index: [ 21010  21011  21012 ... 764741 764742 764743] Val index: [ 764744  764745  764746 ... 1023901 1023902 1023903]
+2959.7s 332 Train size: 743734 Val size: 259160
+2964.6s 333 Preparing datasets...
+3021.9s 334 there are 3 unique missing value patterns.
+3021.9s 335 working on unique pattern 0
+3026.4s 336 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3041.1s 337 val_score: 5.991010326294443
+3041.1s 338 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3055.8s 339 val_score: 5.990930964535085
+3055.8s 340 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3070.7s 341 val_score: 5.990997123990367
+3070.7s 342 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3085.5s 343 val_score: 5.990932713602533
+3085.5s 344 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3100.4s 345 val_score: 5.990946238822584
+3100.4s 346 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3115.0s 347 val_score: 5.990928061461242
+3115.0s 348 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3127.2s 349 val_score: 5.981865294119444
+3127.2s 350 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3138.8s 351 val_score: 5.981691310900915
+3138.8s 352 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3150.6s 353 val_score: 5.981839600356779
+3150.6s 354 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3162.4s 355 val_score: 5.981655073935185
+3162.4s 356 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3174.0s 357 val_score: 5.98220592320367
+3174.0s 358 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3185.6s 359 val_score: 5.981643825711884
+3185.6s 360 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3198.0s 361 val_score: 5.9817723311527375
+3198.0s 362 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3210.1s 363 val_score: 5.981125821795746
+3210.1s 364 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3222.5s 365 val_score: 5.981885950089105
+3222.5s 366 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3234.5s 367 val_score: 5.981035867523794
+3234.5s 368 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3246.8s 369 val_score: 5.981469457309988
+3246.8s 370 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3259.1s 371 val_score: 5.981161308388747
+3259.1s 372 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3275.8s 373 val_score: 5.985482565139781
+3275.8s 374 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3293.1s 375 val_score: 5.983159833512877
+3293.1s 376 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3309.9s 377 val_score: 5.9858938744218495
+3309.9s 378 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3326.9s 379 val_score: 5.984100108406533
+3326.9s 380 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3343.6s 381 val_score: 5.984819012318093
+3343.6s 382 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3360.6s 383 val_score: 5.984207952690787
+3360.6s 384 best model parameters for pattern 0:
+3360.6s 385 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.5, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+3360.6s 386 corresponding validation score: 5.981035867523794
+3372.8s 387 working on unique pattern 1
+3376.6s 388 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3391.8s 389 val_score: 6.067064895480214
+3391.8s 390 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3407.0s 391 val_score: 6.067062940415238
+3407.0s 392 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3422.2s 393 val_score: 6.06706477359637
+3422.2s 394 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3437.3s 395 val_score: 6.067062817982698
+3437.3s 396 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3452.6s 397 val_score: 6.067064613709773
+3452.6s 398 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3467.8s 399 val_score: 6.067062666533166
+3467.8s 400 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3479.4s 401 val_score: 6.058040444750749
+3479.4s 402 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3491.4s 403 val_score: 6.058452609565426
+3491.4s 404 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3503.5s 405 val_score: 6.058066973359998
+3503.5s 406 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3515.3s 407 val_score: 6.058055301031035
+3515.3s 408 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3526.8s 409 val_score: 6.057849298353713
+3526.8s 410 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3539.0s 411 val_score: 6.0580621533387005
+3539.0s 412 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3550.8s 413 val_score: 6.054390786472258
+3550.8s 414 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3562.7s 415 val_score: 6.05359436668359
+3562.7s 416 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3574.7s 417 val_score: 6.054898007139442
+3574.7s 418 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3586.4s 419 val_score: 6.0543586732563055
+3586.4s 420 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3598.9s 421 val_score: 6.055366817568734
+3598.9s 422 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3610.7s 423 val_score: 6.054033615823904
+3610.7s 424 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3627.8s 425 val_score: 6.061318621845397
+3627.8s 426 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3644.0s 427 val_score: 6.060356267125898
+3644.0s 428 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3661.1s 429 val_score: 6.062277650230111
+3661.1s 430 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3677.4s 431 val_score: 6.061092284663992
+3677.4s 432 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3694.1s 433 val_score: 6.061832853656231
+3694.1s 434 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3711.6s 435 val_score: 6.059948643724048
+3711.6s 436 best model parameters for pattern 1:
+3711.6s 437 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+3711.6s 438 corresponding validation score: 6.05359436668359
+3723.2s 439 working on unique pattern 2
+3728.5s 440 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3759.3s 441 val_score: 6.728651637519297
+3759.3s 442 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3790.0s 443 val_score: 6.7286517544537165
+3790.0s 444 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3820.8s 445 val_score: 6.728656600848943
+3820.8s 446 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3851.6s 447 val_score: 6.728633235095989
+3851.6s 448 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3882.4s 449 val_score: 6.728637530128843
+3882.4s 450 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3913.2s 451 val_score: 6.728659876371474
+3913.2s 452 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3936.2s 453 val_score: 6.725686850941286
+3936.2s 454 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3958.7s 455 val_score: 6.725456734019778
+3958.7s 456 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+3981.8s 457 val_score: 6.7256873726214526
+3981.8s 458 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4004.5s 459 val_score: 6.72545474150542
+4004.5s 460 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4027.0s 461 val_score: 6.725689021415478
+4027.0s 462 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4050.2s 463 val_score: 6.725623489980677
+4050.2s 464 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4072.9s 465 val_score: 6.726747563587565
+4072.9s 466 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4094.9s 467 val_score: 6.724530129738111
+4094.9s 468 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4116.5s 469 val_score: 6.726131629229081
+4116.5s 470 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4138.9s 471 val_score: 6.7243967641136715
+4138.9s 472 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4161.4s 473 val_score: 6.72586203757729
+4161.4s 474 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4183.7s 475 val_score: 6.724502134942324
+4183.7s 476 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4212.4s 477 val_score: 6.7342508305421624
+4212.4s 478 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4241.8s 479 val_score: 6.729682885636813
+4241.8s 480 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4269.4s 481 val_score: 6.733095845480287
+4269.4s 482 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4298.5s 483 val_score: 6.730366678514836
+4298.5s 484 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4327.2s 485 val_score: 6.733327447582325
+4327.2s 486 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4356.1s 487 val_score: 6.730044746731465
+4356.1s 488 best model parameters for pattern 2:
+4356.1s 489 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.5, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+4356.1s 490 corresponding validation score: 6.7243967641136715
+4376.9s 491 test MAE: 6.738846380117285
+4376.9s 492 
+4376.9s 493 Fold 4 Reduced Features:
+4376.9s 494 Train index: [ 31515  31516  31517 ... 775521 775522 775523] Val index: [ 775524  775525  775526 ... 1034736 1034737 1034738]
+4376.9s 495 Train size: 744009 Val size: 259215
+4381.9s 496 Preparing datasets...
+4438.0s 497 there are 3 unique missing value patterns.
+4438.0s 498 working on unique pattern 0
+4442.5s 499 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4458.2s 500 val_score: 6.187992574583158
+4458.2s 501 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4474.0s 502 val_score: 6.18795127755552
+4474.0s 503 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4489.6s 504 val_score: 6.187992423359918
+4489.6s 505 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4505.4s 506 val_score: 6.1879511469427655
+4505.4s 507 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4521.1s 508 val_score: 6.187979059789397
+4521.1s 509 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4537.1s 510 val_score: 6.187963660211165
+4537.1s 511 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4548.5s 512 val_score: 6.178451616773823
+4548.5s 513 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4560.0s 514 val_score: 6.178269757556931
+4560.0s 515 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4572.2s 516 val_score: 6.1784601885801615
+4572.2s 517 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4584.0s 518 val_score: 6.178268905071981
+4584.0s 519 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4595.8s 520 val_score: 6.178457962356747
+4595.8s 521 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4608.0s 522 val_score: 6.178403509822554
+4608.0s 523 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4621.2s 524 val_score: 6.173657350985883
+4621.2s 525 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4634.5s 526 val_score: 6.171867140379925
+4634.5s 527 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4647.4s 528 val_score: 6.174446828780882
+4647.4s 529 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4660.2s 530 val_score: 6.171148985095265
+4660.2s 531 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4673.6s 532 val_score: 6.173813332913567
+4673.6s 533 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4686.4s 534 val_score: 6.174216836181609
+4686.4s 535 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4704.4s 536 val_score: 6.1781960986383435
+4704.4s 537 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4723.1s 538 val_score: 6.176679926884405
+4723.1s 539 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4741.1s 540 val_score: 6.176505090692845
+4741.1s 541 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4758.8s 542 val_score: 6.175888628942247
+4758.8s 543 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4776.6s 544 val_score: 6.17823896931737
+4776.6s 545 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4796.5s 546 val_score: 6.1757359179760805
+4796.5s 547 best model parameters for pattern 0:
+4796.5s 548 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.5, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+4796.5s 549 corresponding validation score: 6.171148985095265
+4809.3s 550 working on unique pattern 1
+4813.1s 551 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4829.0s 552 val_score: 6.258859033662145
+4829.0s 553 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4844.3s 554 val_score: 6.258836709638795
+4844.3s 555 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4860.3s 556 val_score: 6.258859072915763
+4860.3s 557 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4875.7s 558 val_score: 6.258836747632958
+4875.7s 559 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4891.6s 560 val_score: 6.258837557865477
+4891.6s 561 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4906.9s 562 val_score: 6.258836798028372
+4906.9s 563 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4921.7s 564 val_score: 6.247411555411909
+4921.7s 565 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4936.4s 566 val_score: 6.246669532802353
+4936.4s 567 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4949.8s 568 val_score: 6.247144814702945
+4949.8s 569 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4963.4s 570 val_score: 6.247455892880288
+4963.4s 571 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4976.9s 572 val_score: 6.247492574157576
+4976.9s 573 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+4991.6s 574 val_score: 6.246794907172532
+4991.6s 575 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5003.6s 576 val_score: 6.245005876911591
+5003.6s 577 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5016.7s 578 val_score: 6.243906970959183
+5016.7s 579 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5029.2s 580 val_score: 6.244755001759211
+5029.2s 581 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5041.3s 582 val_score: 6.244753997385497
+5041.3s 583 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5053.7s 584 val_score: 6.246239988151932
+5053.7s 585 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5066.3s 586 val_score: 6.2441986266326746
+5066.3s 587 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5083.4s 588 val_score: 6.2524664142739494
+5083.4s 589 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5101.2s 590 val_score: 6.24839937871267
+5101.2s 591 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5119.6s 592 val_score: 6.25147919516008
+5119.6s 593 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5137.6s 594 val_score: 6.248345761546306
+5137.6s 595 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5155.6s 596 val_score: 6.25186854583188
+5155.6s 597 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5173.8s 598 val_score: 6.249365015358104
+5173.8s 599 best model parameters for pattern 1:
+5173.8s 600 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+5173.8s 601 corresponding validation score: 6.243906970959183
+5185.9s 602 working on unique pattern 2
+5191.1s 603 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5221.5s 604 val_score: 7.061680733425472
+5221.5s 605 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5251.8s 606 val_score: 7.06172416428734
+5251.8s 607 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5282.5s 608 val_score: 7.061723804263764
+5282.5s 609 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5313.7s 610 val_score: 7.06172428245775
+5313.7s 611 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5344.5s 612 val_score: 7.061723953368378
+5344.5s 613 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 1, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5375.3s 614 val_score: 7.061724432582939
+5375.3s 615 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5397.4s 616 val_score: 7.059006585729309
+5397.4s 617 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5419.5s 618 val_score: 7.058979369943464
+5419.5s 619 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5441.3s 620 val_score: 7.059035773156041
+5441.3s 621 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5463.6s 622 val_score: 7.0589284039408655
+5463.6s 623 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5485.4s 624 val_score: 7.0590968341921325
+5485.4s 625 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 3, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5507.3s 626 val_score: 7.058962038645054
+5507.3s 627 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5529.8s 628 val_score: 7.059245676555209
+5529.8s 629 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5552.9s 630 val_score: 7.057341703912974
+5552.9s 631 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5575.7s 632 val_score: 7.059294818339661
+5575.7s 633 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5598.3s 634 val_score: 7.057129689593037
+5598.3s 635 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5620.9s 636 val_score: 7.059129178362644
+5620.9s 637 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 7, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5643.9s 638 val_score: 7.057017050802045
+5643.9s 639 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5672.0s 640 val_score: 7.063477812516202
+5672.0s 641 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5700.2s 642 val_score: 7.060911685332564
+5700.2s 643 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5728.7s 644 val_score: 7.063700406495463
+5728.7s 645 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 0.5, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5757.1s 646 val_score: 7.061926607249661
+5757.1s 647 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 1, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5785.5s 648 val_score: 7.064097848010005
+5785.5s 649 params: {'verbosity': 0, 'tree_method': 'gpu_hist', 'subsample': 0.66, 'seed': 42, 'reg_lambda': 2, 'reg_alpha': 1, 'n_thread': -1, 'n_estimators': 6000, 'missing': nan, 'max_depth': 11, 'learning_rate': 0.01, 'eval_metric': 'mae', 'colsample_bytree': 0.9}
+5814.0s 650 val_score: 7.061067621062447
+5814.0s 651 best model parameters for pattern 2:
+5814.0s 652 [{'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}]
+5814.0s 653 corresponding validation score: 7.057017050802045
+5835.9s 654 test MAE: 6.7371280197598855
+5835.9s 655 overall test mean: 6.738884228337913
+5835.9s 656 overall test std: 0.0011413218275947614
+5835.9s 657 
+5835.9s 658 XGB reduced features model running time: 5821.885423183441
+5838.4s 659 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+5838.4s 660 warn(
+5838.4s 661 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+5838.5s 662 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+5838.9s 663 [NbConvertApp] Writing 119747 bytes to __notebook__.ipynb
+5840.5s 664 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+5840.5s 665 warn(
+5840.5s 666 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+5840.5s 667 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+5841.5s 668 [NbConvertApp] Writing 453221 bytes to __results__.html
