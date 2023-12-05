@@ -19,14 +19,20 @@
 
 ## File Structure
 
-- `data/`: We stores all raw and preprocessed data files here. `raw_kaggle/train.csv` is the raw data that we will use for EDA, splitting and preprocessing.
+- `data/`: We stores all raw and preprocessed data files here. `raw_kaggle/train.csv` is the raw data that we will use for EDA, splitting and preprocessing. The raw csv file and processed train-test datasets can also be downloaded [here](https://drive.google.com/drive/folders/1qUySRQF15yYXONtvso2XPZ7sBAsJeuUP?usp=sharing).
 - `figures/`: This stores all visualizations for report and presentations.
-- `results/`: We will later put trained models and results here.
+- `results/`: Trained models and results will be stored here.
 - `report/`: Presentations and reports for pipeline, methodology, and model results.
 - `src/`: All the notebooks and codes for the machine learning pipeline will be stored here.
 
 ## Dependencies
-- To Be Updated
+- `python_version=3.10.12`
+- package versions:
+```
+requirements = {'numpy': "1.24.3", 'matplotlib': "3.7.3",'sklearn': "1.2.2",
+'pandas': "2.0.3",'xgboost': "2.0.1", 'shap': "0.43.0", 'seaborn': "0.12.2"}
+```
+
 
 
 
