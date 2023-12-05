@@ -1,0 +1,67 @@
+7.3s 1 /kaggle/input/optiver-trading-at-the-close/public_timeseries_testing_util.py
+7.3s 2 /kaggle/input/optiver-trading-at-the-close/train.csv
+7.3s 3 /kaggle/input/optiver-trading-at-the-close/example_test_files/sample_submission.csv
+7.3s 4 /kaggle/input/optiver-trading-at-the-close/example_test_files/revealed_targets.csv
+7.3s 5 /kaggle/input/optiver-trading-at-the-close/example_test_files/test.csv
+7.3s 6 /kaggle/input/optiver-trading-at-the-close/optiver2023/competition.cpython-310-x86_64-linux-gnu.so
+7.3s 7 /kaggle/input/optiver-trading-at-the-close/optiver2023/__init__.py
+7.3s 8 /kaggle/input/data1030-optiver-trading-at-close/test_dataset.pkl
+7.3s 9 /kaggle/input/data1030-optiver-trading-at-close/train_val_dataset.pkl
+13.6s 10 
+13.6s 11 Fold 1 Parameter Searching:
+13.6s 12 Train index: [     0      1      2 ... 743181 743182 743183] Val index: [ 743184  743185  743186 ... 1002231 1002232 1002233]
+13.6s 13 Train size: 743184 Val size: 259050
+20.8s 14 Fitting 80 Parameters...
+4287.9s 15 Fitting Model with Best Parameter Set...
+4330.7s 16 Predicting Results...
+4338.3s 17 Best Paramter: {'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 3, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}
+4338.3s 18 Training MAE: 5.2573
+4338.3s 19 Val MAE: 6.5528
+4338.3s 20 Test MAE: 6.7388
+4338.3s 21 
+4338.3s 22 Fold 2 Parameter Searching:
+4338.3s 23 Train index: [ 10505  10506  10507 ... 753961 753962 753963] Val index: [ 753964  753965  753966 ... 1013066 1013067 1013068]
+4338.3s 24 Train size: 743459 Val size: 259105
+4345.0s 25 Fitting 80 Parameters...
+7870.5s 26 Fitting Model with Best Parameter Set...
+7928.5s 27 Predicting Results...
+7935.3s 28 Best Paramter: {'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 1, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}
+7935.3s 29 Training MAE: 5.2761
+7935.3s 30 Val MAE: 6.6611
+7935.3s 31 Test MAE: 6.7423
+7935.3s 32 
+7935.3s 33 Fold 3 Parameter Searching:
+7935.3s 34 Train index: [ 21010  21011  21012 ... 764741 764742 764743] Val index: [ 764744  764745  764746 ... 1023901 1023902 1023903]
+7935.3s 35 Train size: 743734 Val size: 259160
+7942.1s 36 Fitting 80 Parameters...
+11641.0s 37 Fitting Model with Best Parameter Set...
+11705.3s 38 Predicting Results...
+11712.7s 39 Best Paramter: {'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 1, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 0.1, 'reg_lambda': 1, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}
+11712.7s 40 Training MAE: 5.2857
+11712.7s 41 Val MAE: 6.7285
+11712.7s 42 Test MAE: 6.7413
+11712.7s 43 
+11712.7s 44 Fold 4 Parameter Searching:
+11712.7s 45 Train index: [ 31515  31516  31517 ... 775521 775522 775523] Val index: [ 775524  775525  775526 ... 1034736 1034737 1034738]
+11712.7s 46 Train size: 744009 Val size: 259215
+11719.4s 47 Fitting 80 Parameters...
+15412.6s 48 Fitting Model with Best Parameter Set...
+15450.4s 49 Predicting Results...
+15457.3s 50 Best Paramter: {'colsample_bytree': 0.9, 'eval_metric': 'mae', 'learning_rate': 0.01, 'max_depth': 7, 'missing': nan, 'n_estimators': 6000, 'n_thread': -1, 'reg_alpha': 1, 'reg_lambda': 2, 'seed': 42, 'subsample': 0.66, 'tree_method': 'gpu_hist', 'verbosity': 0}
+15457.3s 51 Training MAE: 5.2275
+15457.3s 52 Val MAE: 7.0589
+15457.3s 53 Test MAE: 6.7407
+15457.3s 54 {'Train_Scores': array([5.25728998, 5.276145  , 5.28572996, 5.22754331]), 'Val_Scores': array([6.552755  , 6.66106007, 6.72846395, 7.05888786]), 'Test_Scores': array([6.73876265, 6.74234162, 6.74128729, 6.74073149])}
+15457.3s 55 test mean: 6.740780763151302
+15457.3s 56 test std: 0.0013007745099942825
+15457.3s 57 XGB Running time: 15444.105332136154
+15459.8s 58 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+15459.8s 59 warn(
+15459.8s 60 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+15459.8s 61 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+15460.2s 62 [NbConvertApp] Writing 22687 bytes to __notebook__.ipynb
+15461.9s 63 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+15461.9s 64 warn(
+15461.9s 65 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+15461.9s 66 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+15462.8s 67 [NbConvertApp] Writing 322157 bytes to __results__.html
