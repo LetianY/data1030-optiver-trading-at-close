@@ -19,7 +19,7 @@
 
 ## File Structure
 
-- `data/`: We stores all raw and preprocessed data files here. `raw_kaggle/train.csv` is the raw data that we will use for EDA, splitting and preprocessing. Due to storage limitation, we removed these data from the repository. The raw csv file and processed train-test datasets can instead be downloaded [here](https://drive.google.com/drive/folders/1qUySRQF15yYXONtvso2XPZ7sBAsJeuUP?usp=sharing).
+- `data/`: We store all raw and preprocessed data files here. `raw_kaggle/train.csv` is the raw data that we will use for EDA, splitting and preprocessing. Due to storage limitation, we removed these data from the repository. The raw csv file and processed train-test datasets can instead be downloaded [here](https://drive.google.com/drive/folders/1qUySRQF15yYXONtvso2XPZ7sBAsJeuUP?usp=sharing).
 - `figures/`: This stores all visualizations for report and presentations.
 - `results/`: Trained models and results will be stored here.
 - `report/`: Presentations and reports for pipeline, methodology, and model results.
